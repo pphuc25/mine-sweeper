@@ -1,0 +1,7 @@
+numpy
+pandas
+tqdm
+pyautogui
+opencv-python
+tensorflow-gpu
+keras
