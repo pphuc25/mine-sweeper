@@ -119,7 +119,6 @@ class MinesweeperEnv(object):
         state = state_im * 8.0
         state_df = pd.DataFrame(state.reshape((self.nrows, self.ncols)), dtype=np.int8)
 
-        display(state_df.style.applymap(self.color_state))
 
     def click(self, action_index):
         coord = self.state[action_index]['coord']

@@ -99,7 +99,7 @@ class MinesweeperAgent:
         if rand < self.epsilon:
             move = np.random.choice(unsolved)
         else:
-            moves = self.model.predict(np.reshape(self.state, (1, self.nrows, self.ncols, 1)))
+            moves = self.model.predict(np.reshape(self.state, (1, self.nrows, self.ncols, 1)), verbose=0)
             moves[board!=-0.125] = np.min(moves)
             move = np.argmax(moves)
 

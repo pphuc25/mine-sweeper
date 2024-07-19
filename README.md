@@ -4,6 +4,10 @@
 1. [Introduction to Minesweeper](#intro)
 2. [Usage guideline](#guideline)
 2. [Deep Q-Learning Networks](#DQN)
+<!-- 
+<video width="320" height="320" controls>
+  <source src="assets/Demo.webm" type="video/mp4">
+</video> -->
 
 
 ## Introduction: The Game of Minesweeper <a name='intro'></a>
